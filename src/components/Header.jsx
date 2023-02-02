@@ -35,7 +35,7 @@ function Header() {
                     <h1>Little Lemon</h1>
                     <span>Chicago</span>
                     <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-                    <button id="" className="">Book a table</button>
+                    <a href='/booking' id="" className="">Book a table</a>
                 </div>
                 <div className="hero-img">
                     <img src={HeaderImg} alt="Mario and Adrian" />
