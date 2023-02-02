@@ -29,12 +29,26 @@ a{
 
 .topnav a {
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
+
+.topnav .navbar a{
+  margin: 0px 15px;
+  border-bottom: 1px solid #69837a;
+}
+
+.topnav .navbar a:hover{
+  color: #69837a;
+}
+
 .topnav .icon {
   display: none;
+  border-bottom: 0px;
+}
+
+.topnav a.icon{
+  border-bottom: 0px;
 }
 
 @media screen and (max-width: 645px) {
