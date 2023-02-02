@@ -1,5 +1,5 @@
-import StarIcon from '../icons_assets/star.png';
-import UserIcon from '../icons_assets/user.png';
+import StarIcon from '../../../icons_assets/star.png';
+import UserIcon from '../../../icons_assets/user.png';
 
 function Testimonials() {
   return (
@@ -11,10 +11,10 @@ function Testimonials() {
             <div className="d-flex">
                 <img src={UserIcon} alt="User Icon" />
                 <div className="review-stars">
-                    <img src={{StarIcon}} alt="Star Icon" />
-                    <img src={{StarIcon}} alt="Star Icon" />
-                    <img src={{StarIcon}} alt="Star Icon" />
-                    <img src={{StarIcon}} alt="Star Icon" />
+                    <img src={StarIcon} alt="Star Icon" />
+                    <img src={StarIcon} alt="Star Icon" />
+                    <img src={StarIcon} alt="Star Icon" />
+                    <img src={StarIcon} alt="Star Icon" />
                 </div>
             </div>
             <p>Lorem ipsum is placeholder text</p>
@@ -24,10 +24,10 @@ function Testimonials() {
             <div className="d-flex">
                 <img src={UserIcon} alt="User Icon" />
                 <div className="review-stars">
-                    <img src={{StarIcon}} alt="Star Icon" />
-                    <img src={{StarIcon}} alt="Star Icon" />
-                    <img src={{StarIcon}} alt="Star Icon" />
-                    <img src={{StarIcon}} alt="Star Icon" />
+                    <img src={StarIcon} alt="Star Icon" />
+                    <img src={StarIcon} alt="Star Icon" />
+                    <img src={StarIcon} alt="Star Icon" />
+                    <img src={StarIcon} alt="Star Icon" />
                 </div>
             </div>
             <p>Lorem ipsum is placeholder text</p>
@@ -37,10 +37,10 @@ function Testimonials() {
             <div className="d-flex">
                 <img src={UserIcon} alt="User Icon" />
                 <div className="review-stars">
-                    <img src={{StarIcon}} alt="Star Icon" />
-                    <img src={{StarIcon}} alt="Star Icon" />
-                    <img src={{StarIcon}} alt="Star Icon" />
-                    <img src={{StarIcon}} alt="Star Icon" />
+                    <img src={StarIcon} alt="Star Icon" />
+                    <img src={StarIcon} alt="Star Icon" />
+                    <img src={StarIcon} alt="Star Icon" />
+                    <img src={StarIcon} alt="Star Icon" />
                 </div>
             </div>
             <p>Lorem ipsum is placeholder text</p>
@@ -50,10 +50,10 @@ function Testimonials() {
             <div className="d-flex">
                 <img src={UserIcon} alt="User Icon" />
                 <div className="review-stars">
-                    <img src={{StarIcon}} alt="Star Icon" />
-                    <img src={{StarIcon}} alt="Star Icon" />
-                    <img src={{StarIcon}} alt="Star Icon" />
-                    <img src={{StarIcon}} alt="Star Icon" />
+                    <img src={StarIcon} alt="Star Icon" />
+                    <img src={StarIcon} alt="Star Icon" />
+                    <img src={StarIcon} alt="Star Icon" />
+                    <img src={StarIcon} alt="Star Icon" />
                 </div>
             </div>
             <p>Lorem ipsum is placeholder text</p>

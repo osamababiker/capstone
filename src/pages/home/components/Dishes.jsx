@@ -1,15 +1,14 @@
-import DishOne from '../icons_assets/greek salad-min.jpg';
-import DishTwo from '../icons_assets/lemon dessert-min.jpg';
-import TruckIcon from '../icons_assets/delivery-truck.png';
-import DishThree from '../icons_assets/restauranfood-min.jpg';
+import DishOne from '../../../icons_assets/greek salad-min.jpg';
+import DishTwo from '../../../icons_assets/lemon dessert-min.jpg';
+import TruckIcon from '../../../icons_assets/delivery-truck.png';
+import DishThree from '../../../icons_assets/restauranfood-min.jpg';
 
 function Dishes() {
   return (
     
     <section id="dishes">
     <div className="dishes-header">
-        <h1>Specials</h1>
-        <button id="">Online Menu</button>
+        <h1>Specials Dishes</h1>
     </div>
     <div className="dishes-card">
         <div className="dish">

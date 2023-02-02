@@ -1,32 +1,31 @@
-import { useEffect } from 'react';
 import Logo from '../icons_assets/Logo.svg';
 import HeaderImg from '../icons_assets/Mario and Adrian A-min.jpg';
 
-function header() {
-    useEffect(() => {
-        function menuToggler() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-              x.className += " responsive";
-          } else {
-              x.className = "topnav";
-          }
+function Header() {
+    
+    const menuToggler = () => {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
         }
-      }, [])
+    }
+     
 
   return (
     <header id="header">
             <nav className="topnav" id="myTopnav">
                 <div className="navbar-brand">
-                    <a href="#"><img src={Logo} alt="logo" /> </a>
+                    <a href="/"><img src={Logo} alt="logo" /> </a>
                 </div>
                 <div className="navbar">
-                    <a href="#home">Home</a>
+                    <a href="/">Home</a>
                     <a href="#news">About</a>
                     <a href="#contact">Menu</a>
-                    <a href="book_table.html" role="button">Book a table</a>
+                    <a href="/booking" role="button">Book a table</a>
                     <a href="#contact">Login</a>
-                    <a href="javascript:void(0);" className="icon" onclick={menuToggler}>
+                    <a href="#" className="icon" onClick={menuToggler}>
                         <i className="fa fa-bars"></i>
                     </a>
                 </div>
@@ -46,4 +45,4 @@ function header() {
   )
 }
 
-export default header
+export default Header

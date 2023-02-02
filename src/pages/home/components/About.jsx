@@ -1,5 +1,5 @@
-import AboutImageOne from '../icons_assets/Mario and Adrian A-min.jpg';
-import AboutImageTwo from '../icons_assets/Mario and Adrian b-min.jpg';
+import AboutImageOne from '../../../icons_assets/Mario and Adrian A-min.jpg';
+import AboutImageTwo from '../../../icons_assets/Mario and Adrian b-min.jpg';
 
 function About() {
   return (

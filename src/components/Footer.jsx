@@ -1,6 +1,6 @@
 import Logo from '../icons_assets/Logo.svg';
 
-function footer() {
+function Footer() {
   return (
     <footer id="footer">
             <div className="">
@@ -36,4 +36,4 @@ function footer() {
   )
 }
 
-export default footer
+export default Footer
